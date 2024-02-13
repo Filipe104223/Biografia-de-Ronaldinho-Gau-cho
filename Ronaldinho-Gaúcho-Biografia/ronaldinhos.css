@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ;
+}
+
+.bio-image {
+    width: 265px; /* Tamanho da imagem */
+    height: 200px; /* Tamanho da imagem */
+    border: 5px solid black; /* Cor e espessura da borda */
+    border-radius: 10px; /* Borda arredondada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bio-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px; /* Borda arredondada para a imagem */
+}
+
+.bio-content {
+    max-width: 600px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralizar o conteúdo */
+}
+
+/* Estilos para as seções */
+section {
+    border: 5px solid black; /* Cor e espessura da borda */
+    border-radius: 5px aqua; /* Borda arredondada */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    
+}
+
+h2 {
+    color: black;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    color: black;
+    font-family: sans-serif;
+}
+
+p {
+    color: black;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: #333;
+}
+
+h1{
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: black solid;
+    background-color: red;
+}
